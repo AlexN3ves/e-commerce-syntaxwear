@@ -1,0 +1,1 @@
+// Script principal para inicialização do site

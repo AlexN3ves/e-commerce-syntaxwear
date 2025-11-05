@@ -1,0 +1,1 @@
+// Script para a seção hero
