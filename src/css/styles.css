@@ -4,3 +4,6 @@
 @import url('footer.css');
 
 /* Estilos globais */
+body{
+    font-family: var(--fonte-principal);
+}
