@@ -12,11 +12,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 12px;
+    padding: 12px 20px;
 }
 
 .header-logo img {
-    height: 32px;
+    height: 48px;
 }
 
 .header-nav-center ul {
