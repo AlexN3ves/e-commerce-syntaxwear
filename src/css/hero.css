@@ -1,1 +1,75 @@
 /* Estilos para a seção hero */
+
+.hero-section {
+    background: url(../images/banners/hero.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 6rem;
+}
+
+.hero-content {
+    color: #ffffff;
+    text-align: center;
+    max-width: 388px;
+}
+
+.hero-content .hero-title {
+    font-size: 1.875rem;
+    margin-bottom: 0.25rem;
+    margin: 0 0 0.5rem;
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 32px;
+}
+
+.hero-content .hero-subtitle {
+    font-size: 1.25rem;
+    font-weight: 500;
+    
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.hero-buttons .btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    width: 161px;
+    height: 48px;
+    color: #ffffff;
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 10px 20px;
+    line-height: 23px;
+    transition: all 0.3s ease;
+}
+
+.hero-buttons .btn-left {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.hero-buttons .btn-right {
+    background-color: #ffffff;
+    color: #6329A2;
+}
+
+.hero-buttons .btn:hover {
+    background-color: #6329A2;
+    color: #ffffff;
+    border-color: #6329A2;
+}
