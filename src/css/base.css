@@ -1,0 +1,27 @@
+@import url('header.css');
+@import url('hero.css');
+@import url('sections.css');
+@import url('footer.css');
+
+/* Estilos globais */
+body{
+    font-family: var(--fonte-principal);
+    background-color: white;
+    color: #333333;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.btn-filled {
+    background-color: #ffffff;
+    color: #6329A2;
+}
+
+.btn:hover {
+    background-color: #6329A2;
+    color: #ffffff;
+    border-color: #6329A2;
+}

@@ -5,6 +5,7 @@
     background-size: cover;
     height: 500px;
     position: relative;
+    border-radius: 20px;
 }
 
 .hero-overlay {
@@ -35,7 +36,7 @@
 .hero-content .hero-subtitle {
     font-size: 1.25rem;
     font-weight: 500;
-    
+
 }
 
 .hero-buttons {
@@ -44,7 +45,7 @@
     margin-top: 40px;
 }
 
-.hero-buttons .btn {
+.btn {
     display: inline-block;
     text-decoration: none;
     font-size: 1.25rem;
@@ -55,21 +56,6 @@
     font-weight: 500;
     padding: 10px 20px;
     line-height: 23px;
-    transition: all 0.3s ease;
+    transition: background-color 0.3s, border 0.3s;
 }
 
-.hero-buttons .btn-left {
-    background-color: transparent;
-    border: 2px solid #ffffff;
-}
-
-.hero-buttons .btn-right {
-    background-color: #ffffff;
-    color: #6329A2;
-}
-
-.hero-buttons .btn:hover {
-    background-color: #6329A2;
-    color: #ffffff;
-    border-color: #6329A2;
-}
